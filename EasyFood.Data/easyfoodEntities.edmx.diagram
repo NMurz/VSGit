@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f4004cbd220a4f6ab4933f446b1f1edd" Name="Diagram1">
+        <EntityTypeShape EntityType="easyfoodModel.AspNetRole" Width="1.5" PointX="0.75" PointY="4.125" />
+        <EntityTypeShape EntityType="easyfoodModel.AspNetUserClaim" Width="1.5" PointX="5.25" PointY="4" />
+        <EntityTypeShape EntityType="easyfoodModel.AspNetUserLogin" Width="1.5" PointX="5.25" PointY="6.75" />
+        <EntityTypeShape EntityType="easyfoodModel.AspNetUser" Width="1.5" PointX="3" PointY="3.25" />
+        <EntityTypeShape EntityType="easyfoodModel.cuisine" Width="1.5" PointX="3" PointY="10.5" />
+        <EntityTypeShape EntityType="easyfoodModel.dish" Width="1.5" PointX="5.25" PointY="9.875" />
+        <EntityTypeShape EntityType="easyfoodModel.dish_restaurant" Width="1.5" PointX="10" PointY="9.5" />
+        <EntityTypeShape EntityType="easyfoodModel.order_items" Width="1.5" PointX="7.5" PointY="1.25" />
+        <EntityTypeShape EntityType="easyfoodModel.order" Width="1.5" PointX="5.25" PointY="1.25" />
+        <EntityTypeShape EntityType="easyfoodModel.restaurant" Width="1.5" PointX="7.75" PointY="6.375" />
+        <EntityTypeShape EntityType="easyfoodModel.review" Width="1.5" PointX="10" PointY="6.375" />
+        <EntityTypeShape EntityType="easyfoodModel.sysdiagram" Width="1.5" PointX="0.75" PointY="7.75" />
+        <AssociationConnector Association="easyfoodModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_User_Id" />
+        <AssociationConnector Association="easyfoodModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="easyfoodModel.FK_aspnet_user" />
+        <AssociationConnector Association="easyfoodModel.FK_cuisine_dish" />
+        <AssociationConnector Association="easyfoodModel.FK_dish" />
+        <AssociationConnector Association="easyfoodModel.FK_orditems_dish" />
+        <AssociationConnector Association="easyfoodModel.FK_restaurant" />
+        <AssociationConnector Association="easyfoodModel.FK_orditems_order" />
+        <AssociationConnector Association="easyfoodModel.FK_restaurant_review" />
+        <AssociationConnector Association="easyfoodModel.AspNetUserRoles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,42 @@
+﻿@model EasyFood.Data.order_items
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>order_items</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.quantity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dish.name_dish)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dish.name_dish)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.order.id_aspnet_user)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.order.id_aspnet_user)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

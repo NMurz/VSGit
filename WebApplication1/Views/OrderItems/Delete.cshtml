@@ -1,0 +1,48 @@
+﻿@model EasyFood.Data.order_items
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>order_items</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.quantity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dish.name_dish)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dish.name_dish)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.order.id_aspnet_user)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.order.id_aspnet_user)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
