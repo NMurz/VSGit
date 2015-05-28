@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyFood.API", "easyfood\EasyFood.API.csproj", "{E3D3C696-C853-44D8-BCA3-9B4945DBF46E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyFood.Admin", "WebApplication1\EasyFood.Admin.csproj", "{DD74D7F3-4FE6-4D65-8392-19D7CF4BAFFD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyFood.Data", "EasyFood.Data\EasyFood.Data.csproj", "{5D6F3627-E865-4031-AA9D-4AAFA08FC0ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyFood.WebAPI", "EasyFood.WebAPI\EasyFood.WebAPI.csproj", "{7946D292-D3B5-48A8-BC3A-AC165BF80426}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E3D3C696-C853-44D8-BCA3-9B4945DBF46E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E3D3C696-C853-44D8-BCA3-9B4945DBF46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E3D3C696-C853-44D8-BCA3-9B4945DBF46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E3D3C696-C853-44D8-BCA3-9B4945DBF46E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DD74D7F3-4FE6-4D65-8392-19D7CF4BAFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DD74D7F3-4FE6-4D65-8392-19D7CF4BAFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD74D7F3-4FE6-4D65-8392-19D7CF4BAFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{5D6F3627-E865-4031-AA9D-4AAFA08FC0ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D6F3627-E865-4031-AA9D-4AAFA08FC0ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D6F3627-E865-4031-AA9D-4AAFA08FC0ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7946D292-D3B5-48A8-BC3A-AC165BF80426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7946D292-D3B5-48A8-BC3A-AC165BF80426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7946D292-D3B5-48A8-BC3A-AC165BF80426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7946D292-D3B5-48A8-BC3A-AC165BF80426}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
